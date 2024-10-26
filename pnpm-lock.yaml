@@ -15,8 +15,8 @@ devDependencies:
     specifier: 5.62.0
     version: 5.62.0(eslint@8.57.1)(typescript@4.9.5)
   builtin-modules:
-    specifier: 3.3.0
-    version: 3.3.0
+    specifier: 4.0.0
+    version: 4.0.0
   esbuild:
     specifier: 0.24.0
     version: 0.24.0
@@ -581,9 +581,9 @@ packages:
       fill-range: 7.0.1
     dev: true
 
-  /builtin-modules@3.3.0:
-    resolution: {integrity: sha512-zhaCDicdLuWN5UbN5IMnFqNMhNfo919sH85y2/ea+5Yg9TsTkeZxpL+JLbp6cgYFS4sRLp3YV4S6yDuqVWHYOw==}
-    engines: {node: '>=6'}
+  /builtin-modules@4.0.0:
+    resolution: {integrity: sha512-p1n8zyCkt1BVrKNFymOHjcDSAl7oq/gUvfgULv2EblgpPVQlQr9yHnWjg9IJ2MhfwPqiYqMMrr01OY7yQoK2yA==}
+    engines: {node: '>=18.20'}
     dev: true
 
   /callsites@3.1.0:
