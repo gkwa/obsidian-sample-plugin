@@ -7,7 +7,7 @@ settings:
 devDependencies:
   '@types/node':
     specifier: ^24.0.0
-    version: 24.10.12
+    version: 24.10.13
   '@typescript-eslint/eslint-plugin':
     specifier: 8.54.0
     version: 8.54.0(@typescript-eslint/parser@8.54.0)(eslint@9.39.2)(typescript@5.9.3)
@@ -22,7 +22,7 @@ devDependencies:
     version: 0.27.3
   obsidian:
     specifier: latest
-    version: 1.5.7-1(@codemirror/state@6.5.4)(@codemirror/view@6.39.12)
+    version: 1.5.7-1(@codemirror/state@6.5.4)(@codemirror/view@6.39.13)
   tslib:
     specifier: 2.8.1
     version: 2.8.1
@@ -38,8 +38,8 @@ packages:
       '@marijn/find-cluster-break': 1.0.2
     dev: true
 
-  /@codemirror/view@6.39.12:
-    resolution: {integrity: sha512-f+/VsHVn/kOA9lltk/GFzuYwVVAKmOnNjxbrhkk3tPHntFqjWeI2TbIXx006YkBkqC10wZ4NsnWXCQiFPeAISQ==}
+  /@codemirror/view@6.39.13:
+    resolution: {integrity: sha512-QBO8ZsgJLCbI28KdY0/oDy5NQLqOQVZCozBknxc2/7L98V+TVYFHnfaCsnGh1U+alpd2LOkStVwYY7nW2R1xbw==}
     dependencies:
       '@codemirror/state': 6.5.4
       crelt: 1.0.6
@@ -401,8 +401,8 @@ packages:
     resolution: {integrity: sha512-5+fP8P8MFNC+AyZCDxrB2pkZFPGzqQWUzpSeuuVLvm8VMcorNYavBqoFcxK8bQz4Qsbn4oUEEem4wDLfcysGHA==}
     dev: true
 
-  /@types/node@24.10.12:
-    resolution: {integrity: sha512-68e+T28EbdmLSTkPgs3+UacC6rzmqrcWFPQs1C8mwJhI/r5Uxr0yEuQotczNRROd1gq30NGxee+fo0rSIxpyAw==}
+  /@types/node@24.10.13:
+    resolution: {integrity: sha512-oH72nZRfDv9lADUBSo104Aq7gPHpQZc4BTx38r9xf9pg5LfP6EzSyH2n7qFmmxRQXh7YlUXODcYsg6PuTDSxGg==}
     dependencies:
       undici-types: 7.16.0
     dev: true
@@ -980,14 +980,14 @@ packages:
     resolution: {integrity: sha512-OWND8ei3VtNC9h7V60qff3SVobHr996CTwgxubgyQYEpg290h9J0buyECNNJexkFm5sOajh5G116RYA1c8ZMSw==}
     dev: true
 
-  /obsidian@1.5.7-1(@codemirror/state@6.5.4)(@codemirror/view@6.39.12):
+  /obsidian@1.5.7-1(@codemirror/state@6.5.4)(@codemirror/view@6.39.13):
     resolution: {integrity: sha512-T5ZRuQ1FnfXqEoakTTHVDYvzUEEoT8zSPnQCW31PVgYwG4D4tZCQfKHN2hTz1ifnCe8upvwa6mBTAP2WUA5Vng==}
     peerDependencies:
       '@codemirror/state': ^6.0.0
       '@codemirror/view': ^6.0.0
     dependencies:
       '@codemirror/state': 6.5.4
-      '@codemirror/view': 6.39.12
+      '@codemirror/view': 6.39.13
       '@types/codemirror': 5.60.8
       moment: 2.29.4
     dev: true
