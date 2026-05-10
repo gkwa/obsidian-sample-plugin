@@ -15,8 +15,8 @@ devDependencies:
     specifier: 8.59.2
     version: 8.59.2(eslint@10.3.0)(typescript@6.0.3)
   builtin-modules:
-    specifier: 5.1.0
-    version: 5.1.0
+    specifier: 5.2.0
+    version: 5.2.0
   esbuild:
     specifier: 0.28.0
     version: 0.28.0
@@ -578,8 +578,8 @@ packages:
       balanced-match: 4.0.4
     dev: true
 
-  /builtin-modules@5.1.0:
-    resolution: {integrity: sha512-c5JxaDrzwRjq3WyJkI1AGR5xy6Gr6udlt7sQPbl09+3ckB+Zo2qqQ2KhCTBr7Q8dHB43bENGYEk4xddrFH/b7A==}
+  /builtin-modules@5.2.0:
+    resolution: {integrity: sha512-02yxLeyxF4dNl6SlY6/5HfRSrSdZ/sCPoxy2kZNP5dZZX8LSAD9aE2gtJIUgWrsQTiMPl3mxESyrobSwvRGisQ==}
     engines: {node: '>=18.20'}
     dev: true
 
